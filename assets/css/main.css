@@ -72,6 +72,24 @@ input, select, textarea {
 	appearance: none;
 }
 
+header .btn {
+    border: 3px solid rgba(255, 255, 255, 0.9);
+    color: #fff;
+    border-radius: 0;
+    margin-top: 35px;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    text-shadow: rgba(0, 0, 0, 0.4) 0 1px 1px;
+    letter-spacing: 4px;
+}
+
+header .btn:hover {
+	background: #FFFFFF;
+	color: #000000;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -164,10 +182,11 @@ input, select, textarea {
 		border-bottom: dotted 1px;
 		color: inherit;
 	}
-
+		/*
 		a:hover {
 			border-bottom-color: transparent;
 		}
+		*/
 
 	strong, b {
 		font-weight: 400;
