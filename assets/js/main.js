@@ -119,5 +119,10 @@
 		$('.scrolly').scrolly({
 			speed: 1000
 		});
+	// Scrolly.
+	    var $header_a = $('#header').find('a');
+		$header_a.scrolly({
+			speed: 1000
+		});
 
 })(jQuery);
